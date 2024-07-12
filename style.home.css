@@ -1,0 +1,115 @@
+
+footer{
+    text-align: center;
+    background-color: #faedcd;
+    bottom: 0;
+    padding: 1 em 0;
+    position:relative;
+    border-radius: 25px;
+    width: 100%;
+}
+#header{
+    width: 1420px;
+    height:200px;
+    background-color: #faedcd;
+    border-radius: 25px;
+    }
+#aboutme{
+    width: 1420px;
+    height:150px;
+    background-color: #faedcd;
+    border-radius: 25px;
+    }
+#education{
+    width: 1420px;
+    height:200px;
+    background-color: #faedcd;
+    border-radius: 25px;
+    }
+#skills{
+    width: 1420px;
+    height:150px;
+    background-color: #faedcd;
+    border-radius: 25px;
+    }
+#ContactInformation{
+    width: 1420px;
+    height:150px;
+    background-color: #faedcd;
+    border-radius: 25px;
+    }
+#resume{
+    width: 1420px;
+    height:150px;
+    background-color: #faedcd;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    }
+                
+h1{
+    text-align: center;
+    color: #d4a373;
+    }
+body{
+    background-color: #d4a373;
+    }
+h3{
+    text-align:center;
+    color: #d4a373;
+    }
+#image{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-image:url("image.png");
+    object-fit: cover;
+    background-size: cover;
+    position: absolute;
+    left:300px;
+    top:30px;
+    }
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    }
+table {
+    width: 80%;
+    border-collapse: collapse; 
+    left:100px;
+    }
+
+th, td {
+    border: 1px solid black; 
+    padding: 8px; 
+    text-align: left; 
+    }
+.button{
+    background-color: #d4a373;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    }
+a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+.toggle-button{
+    padding:10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    background-color: #faedcd;
+}
+.toggle-button:hover {
+    background-color: #d4a373;
+    color: #fff;
+}
